@@ -1,0 +1,26 @@
+header {
+    display: flex;
+    background-color: rgb(39, 38, 40);
+    justify-content: center;
+    font-size:xx-large;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    background-color: rgb(39, 38, 40);
+}
+
+aside {
+    display: flex;
+    gap: 10px;
+}
+
+footer {
+    display: flex;
+    background-color:  rgb(39, 38, 40);
+    justify-content: center;
+    padding: 20px;
+    height: 20px;
+}
