@@ -1,0 +1,36 @@
+@media screen and (max-width: 2560px) {
+  a {
+    margin-left: 80px;
+  }
+}
+@media screen and (max-width: 768px) {
+  a {
+    margin: 0px;
+  }
+  nav {
+    align-items: center;
+    flex-direction: column;
+  }
+  .cards-de-informacion {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card-experiencia-laboral,
+  .experiencia-habilidades {
+    margin-top: 100px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .informacion-formulario {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .informacion-formulario {
+    width: 300px;
+  }
+  .inputs-form,
+  .textarea {
+    width: 250px;
+  }
+}
