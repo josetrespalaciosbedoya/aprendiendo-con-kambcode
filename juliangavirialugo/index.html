@@ -14,10 +14,14 @@
     <body>
         <header>
             <nav>
-                <img src="/juliangavirialugo/sukuna.png" alt="" />
+                <img
+                    class="logo"
+                    src="/juliangavirialugo/sukuna.png"
+                    alt="sukuna icon"
+                />
                 <label for="burguer-menu"
                     ><img
-                        src="/MODULO_1/HTML_CSS_C10/homework/juliangavirialugo/burger-bar.png"
+                        src="/juliangavirialugo/burguermenu.png"
                         alt="burguer menu"
                 /></label>
                 <input
@@ -27,13 +31,15 @@
                     id="burguer-menu"
                 />
                 <ul>
-                    <li><a href="">About me</a></li>
-                    <li><a href="">Proyects</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#Experience">Experience</a></li>
+                    <li><a href="#Education">Education</a></li>
                 </ul>
             </nav>
-            <main class="main-section">
-                <div class="about">
+        </header>
+        <main class="main-section">
+            <div class="info">
+                <div class="about" id="about">
                     <h1>Julian Gaviria .Dev</h1>
                     <img src="/juliangavirialugo/fondoazil.png" alt="" />
                     <p>
@@ -42,20 +48,38 @@
                         emocionado por aprender más acerca de este maravilloso
                         mundo del desarrollo.
                     </p>
-                    <button>Contact me</button>
+                    <button id="contact">Contact me</button>
                 </div>
-                <aside class="social">
-                    <h3>Social networks</h3>
-                    <ul>
-                        <li><a href="">Facebook</a></li>
-                        <li><a href="">Instagram</a></li>
-                        <li><a href="">Github</a></li>
-                    </ul>
+                <aside>
+                    <div class="login">
+                        <h3>Log in</h3>
+                        <form action="post">
+                            <input
+                                type="email"
+                                name="email"
+                                placeholder=" E-mail"
+                            />
+                            <input
+                                type="password"
+                                name="password"
+                                placeholder=" Contraseña"
+                            />
+                            <button id="contac">Entrar</button>
+                        </form>
+                    </div>
+                    <div class="social">
+                        <h3>Social networks</h3>
+                        <ul>
+                            <li><a href="">Facebook</a></li>
+                            <li><a href="">Instagram</a></li>
+                            <li><a href="">Github</a></li>
+                        </ul>
+                    </div>
                 </aside>
-            </main>
+            </div>
 
             <section class="proyects-section">
-                <div class="Education">
+                <div class="Experience" id="Experience">
                     <h2>Experiencia laboral</h2>
                     <ul>
                         <li>
@@ -71,29 +95,32 @@
                             <span>Practicante Centro de Servicio Regional</span>
                         </li>
                     </ul>
+                    <img src="/juliangavirialugo/jobs.png" alt="jobs icon" />
                 </div>
-                <div class="Experience">
+                <div class="Education" id="Education">
                     <h2>Educación</h2>
                     <ul>
                         <li>
+                            <h3>Desarrollo Fullstack Javascript</h3>
+                            <span>Kambcode (En curso)</span>
+                        </li>
+                        <li>
                             <h3>Pregrado en Ingeniería industrial</h3>
-                            <span>Universidad Distrital FJC</span>
+                            <span>Universidad Distrital FJC (2023)</span>
                         </li>
                         <li>
-                            <h3>Cemex S.A (2023)</h3>
-                            <span>Analista de Calidad y formación</span>
-                        </li>
-                        <li>
-                            <h3>Cemex S.A (2022)</h3>
-                            <span>Practicante Centro de Servicio Regional</span>
+                            <h3>Diplomado en programación</h3>
+                            <span>Min Tic-UTP (2021)</span>
                         </li>
                     </ul>
+                    <img
+                        src="/juliangavirialugo/educations.png"
+                        alt="jobs icon"
+                    />
                 </div>
             </section>
+        </main>
 
-            <footer>
-                &copy 2024 Juliangadev. Todos los derechos reservados
-            </footer>
-        </header>
+        <footer>&copy 2024 Juliangadev. Todos los derechos reservados</footer>
     </body>
 </html>
