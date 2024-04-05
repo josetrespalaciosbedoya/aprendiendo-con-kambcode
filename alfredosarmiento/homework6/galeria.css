@@ -1,0 +1,25 @@
+*{
+   margin: 15px; 
+   margin: 0 auto;
+   position: relative;
+}
+
+.galeria1{
+padding: 10px;
+
+
+
+}
+
+.galeria2{
+    padding: 10px;
+
+    }
+
+.tabla{
+    background-color: rgb(230, 230, 230);
+    align-items: center;
+    vertical-align:middle
+
+}
+
