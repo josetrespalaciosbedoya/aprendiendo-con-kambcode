@@ -1,12 +1,13 @@
 *{
     padding: 0;
     margin: 0;
+    background-color: gray;
+    color: rgb(68, 38, 38);
 }
 body{
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
-
 }
 header{
     width: 100%;
@@ -36,36 +37,50 @@ a{
     color: #f9f9f9;
 }
 aside{
-    width: 33%;
-    height: 500px;
+    width: 100%;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-
+    justify-content: space-around;
+    align-items: first center;
+    text-align: justify;
 }
-
 #articulo{
     width: 100%;
     height: auto;
-    background-color: white;
-
-}
-figure {
-    background-color: white;
-    color:black;
-
 }
 h2{
+    width: 33%;
+    border: 10px;
+    margin: 20px;
+    padding: 3px;
     background-color: rgb(149, 108, 80);
     color:#f9f9f9;   
 }
 strong{
     font-size: 20px;
-    color: rgb(9, 80, 9);
+    color: rgb(2, 13, 2);
 }
 ul{
     background-color: #f9f9f9;
     color:black;
+    font-size: 15px;
+}
+section{
+    width: 33%;
+    background-position: center;
+}
+p {
+    width: 50%;
+}
+.title{
+    display: flex;
+    flex: content;
+    justify-items: baseline;
+    align-items: flex-start;
+}
+article{
+    display: flex;
+    flex-flow: wrap;
 }
 
