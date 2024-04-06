@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    flex-wrap: wrap; 
+    justify-content: center;
+    
+}
+
+
+
+p { /* propiedades de Parrafo*/
+    min-width:450px;
+    text-align: left;
+    margin: auto;
+    white-space: wrap;
+    width: 1px;
+    height: 100px;
+    text-align: justify;
+}
+
+
+body { /* Centrar Contenido Cuerpo*/ 
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    align-content: flex-start
+}
+
+.tarjeta {/* Tamaño Tarjeta */
+    width: 500px;
+    height: 700px;
+    border-radius: 0px;
+    box-shadow: 2px 3px 5px rgba(73, 69, 52, 0.4);
+    margin: 10px;
+    
+}
+
+.tarjeta .contenido {
+    position: relative;
+    z-index: 100;
+    width: 500px;
+    height: 700px;
+    overflow: hidden;  
+    text-align: center; 
+    padding: -80px;
+    background: #fff;
+}
+
+.Calendario{
+    text-align: left;
+width: 280px
+}
+
+
+.tarjeta .contenido .img img {
+    margin: 20px;
+    width: 450px;
+    height: 450px;
+    padding: 0;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+
+h2{
+    padding: 10px;
+}
+h5{  padding: 0px;
+    text-align: right;
+    width:50%
+    width: 100px;
+}
+
+.galeria1{
+    width: 500px;
+    height: 700px;
+    border-radius: 0px;
+    box-shadow: 2px 3px 5px rgba(73, 69, 52, 0.4);
+    margin: 10px;
+}
+
