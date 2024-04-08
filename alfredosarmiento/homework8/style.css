@@ -1,0 +1,114 @@
+*{       
+}
+header{
+    margin: 0px;
+    text-align: center;
+    background-color: rgb(73, 124, 199);
+    border-radius: 10px 10px 0px  0px ;
+    padding: 10px 0px 0px 0px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 1.6em;
+}
+
+.menu{
+    padding: 5px;
+    text-decoration: none;
+    background-color: rgb(117, 117, 117);
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+/* recurso de colores de Link */
+a:link {
+    color: #ffffff;
+  }
+  
+  a:visited {
+    color: #ffffff;
+  }
+  /* recurso de colores de Link */
+
+.menu{
+    padding: 10px;   
+    word-spacing: 28pt;   /* separacion entre palabras */ 
+}
+
+/* Quitar lineas de los links del menu*/ 
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+/* separacion entre palabras */ 
+.inicio{
+    background-color: rgb(226, 226, 226);
+    padding: 2px;
+    margin: 0px;   
+    margin-top:-4px; /* elimina espacio superior*/ 
+}
+
+.logo_perfil{
+    width: 80px; height: 80px;
+    margin: 20px;
+}
+
+
+
+.galeria{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;     
+}
+
+
+.caja{opacity: 0.4 ease;
+    margin: 10px;
+    padding: 2px;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: solid 3px rgb(150, 150, 150);
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgb(212, 212, 212);
+}
+
+.galeria img {
+    border-radius: 30px;
+  width:100%;
+    max-width:400px;
+
+    }
+
+
+
+    .footer{
+        margin: 0px;
+    text-align: center;
+    background-color: rgb(73, 124, 199);
+    border-radius: 0px 0px 10px  10px ;
+    padding: 10px 0px 10px 0px;
+    
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    }
+
+    .espacio{
+        background-color: rgb(150, 150, 150);
+        padding: 0px;
+        margin: 20px;
+    }
+
+    .foto_perfil{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin: 20px;
+        box-shadow: 5px 5px 5px rgb(212, 212, 212);
+        text-align: justify;
+    }
+    .perfil_final{
+    font-size: 20px;   
+    text-align: justify;
+    margin: 20px;
+}
+
+
